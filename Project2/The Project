@@ -1,1 +1,39 @@
-E
+print ("how long would you like your python to be? Enter a number between 1-10")
+
+input1 = input()
+input1 = int(input1)
+name = 'bean'
+
+if input1 == 1:
+    print ("<=>-<")
+    name = 'Short Snake Enjoyer'
+elif input1 == 2:
+    print ("<==>-<")
+elif input1 == 3:
+    print ("<===>-<")
+elif input1 == 4:
+    print ("<====>-<")
+elif input1 == 5:
+    print ("<=====>-<")
+elif input1 == 6:
+    print ("<======>-<")
+elif input1 == 7:
+    print ("<=======>-<")
+elif input1 == 8:
+    print ("<========>-<")
+elif input1 == 9:
+    print ("<=========>-<")
+elif input1 == 10:
+    print ("<==========>-<")
+#these are the pythons of various lengths. The user is given one based on their specifications.
+    
+print ("Is there anything else you want to know about python? Yes or No.")
+input2 = input()
+
+if input2 == "No":
+    print ("Darn")
+    quit()
+else:
+    pip3 install howdoi
+    print ("Howdoi will answer any python-related question you may have. To use simply type howdoi <your question here>")
+#This is an if else statement that will install the extension howdoi onto their system if they choose to want to know more about Python
