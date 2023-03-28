@@ -1,1 +1,12 @@
-E
+from bs4 import BeautifulSoup
+import requests, re
+
+data = requests.get("https://istodayfridaythe13th.com").content
+soup = BeautifulSoup(data, 'html.parser')
+span = soup.find("h1", {"id":"answer"})
+thing = span.text
+
+print(thing)
+
+#This detects the most dangerous event in the world. Friday the 13th. Running the program will simply return a NO when it is not Friday the 13th. This program has not
+been tested for functionality on Friday the 13th.
