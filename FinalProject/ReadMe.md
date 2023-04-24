@@ -15,3 +15,5 @@ This project is a continuation of the second project that was designed to give t
 Now it will provide users with a collection of random jokes pulled from an api as well as call the user names based on their preferences
 
 To use the script simply run the script and respond to the questions using typed numbers such as 0,1,2 etc.
+
+For more information on this code check the comments on the code itself
